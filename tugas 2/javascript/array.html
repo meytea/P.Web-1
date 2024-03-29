@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>JavaScript Arrays</h1>
+
+        <p id="demo"></p>
+
+        <h3>Array Methods</h3>
+        <p id="methods"></p>
+
+        <h3>Array Search</h3>
+        <p id="search"></p>
+
+        <h3>Array Sort</h3>
+        <p id="sort1"></p>
+        <p id="sort2"></p>
+
+        <h3>Array Iteration</h3>
+        <p>Panggil suatu fungsi satu kali untuk setiap elemen array:</p>
+        <p id="iteration"></p>
+
+        <h3>Array Const</h3>
+        <p id="const"></p>
+
+
+    <script>
+        const cars = ["Saab", "Volvo", "BMW"];
+        document.getElementById("demo").innerHTML = cars;
+    
+        //ARRAY METHODS
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        let size = fruits.length;
+        document.getElementById("methods").innerHTML = size;
+        
+        //ARRAY SEARCH 
+        const animals = ["cat", "dog", "duck", "ant"];
+        let position = animals.indexOf("cat") + 1;
+        document.getElementById("search").innerHTML = "cat is found in position " + position;
+    
+        //ARRAY SORT
+        const motor = ["beat", "vario", "scoopy", "Ninja"];
+        document.getElementById("sort1").innerHTML = motor;
+
+        motor.sort();
+        document.getElementById("sort2").innerHTML = motor;
+    
+        //ARRAY ITERATION
+        const numbers = [45, 4, 9, 16, 25];
+
+        let txt = "";
+        numbers.forEach(myFunction);
+        document.getElementById("iteration").innerHTML = txt;
+
+        function myFunction(value, index, array) {
+        txt += value + "<br>"; 
+        }
+
+        //ARRAY CONST
+        const Cars = ["Saab", "Volvo", "BMW"];
+        // Change an element:
+        Cars[0] = "Toyota";
+        // Add an element:
+        Cars.push("Audi");
+        // Display the Array:
+        document.getElementById("const").innerHTML = Cars; 
+        </script>
+
+    </body>
+</html>
+

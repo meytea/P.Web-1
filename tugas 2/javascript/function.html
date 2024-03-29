@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h1>Functions dalam Java Script</h1>
+
+        <p>Panggil fungsi yang melakukan penghitungan dan mengembalikan hasilnya:</p>
+        <p id="demo"></p>
+        <p id="output"></p>
+
+    <script>
+        let x = myFunction(4, 3);
+        document.getElementById("demo").innerHTML = x;
+
+        function myFunction(a, b) {
+        return a * b;
+        }
+
+        function sapa() {
+        document.getElementById("output").innerHTML = "Halo, selamat datang!";
+        }
+        sapa();
+
+        function sapaNama(nama) {
+            document.getElementById("output").innerHTML += "<br>Halo, " + nama + "!";
+        }
+        sapaNama("Andi");
+
+        function tambah(a, b) {
+            return a + b;
+        }
+        var hasil = tambah(3, 5);
+        document.getElementById("output").innerHTML += "<br>Hasil penjumlahan: " + hasil;
+    
+    </script>
+
+    </body>
+</html>

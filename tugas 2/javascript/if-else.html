@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>JavaScript if .. else</h2>
+
+        <p>A time-based greeting:</p>
+
+        <p id="demo"></p>
+
+        <p>================================================</p>
+
+        <table>
+            <tr>
+                <td>Masukkan nilai:</td>
+                <td><input type="number" id="nilaiInput"></td>
+                <td><button onclick="cekNilai()">Cek</button></td>
+            </tr>
+        </table>
+        
+        <p id="output"></p>
+
+    <script>
+        const hour = new Date().getHours(); 
+        let greeting;
+
+        if (hour < 18) {
+        greeting = "Good day";
+        } else {
+        greeting = "Good evening";
+        }
+
+        document.getElementById("demo").innerHTML = greeting;
+    
+        function cekNilai() {
+        var nilai = parseInt(document.getElementById("nilaiInput").value);
+        var hasil = "";
+
+        if (!isNaN(nilai)) {
+            if (nilai >= 70) {
+                hasil = "Lulus";
+            } else {
+                hasil = "Tidak Lulus";
+            }
+            document.getElementById("output").innerHTML = "Nilai: " + nilai + "<br>Status: " + hasil;
+        } else {
+            document.getElementById("output").innerHTML = "Mohon masukkan angka.";
+        }
+    }
+    </script>
+
+    </body>
+</html>

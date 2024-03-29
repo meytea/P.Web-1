@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h1>JavaScript</h1>
+
+        <h3>Saat menambahkan angka dan string, JavaScript akan memperlakukan angka tersebut sebagai string.</h3>
+
+        <p id="demo"></p>
+
+        <h3>JavaScript memiliki tipe dinamis. Artinya variabel yang sama dapat digunakan untuk menampung tipe data yang berbeda:</h3>
+        <p id="demo2"></p>
+
+        <h3>Menggunakan tanda kutip di dalam sebuah string</h3>
+        <p id="demo3"></p>
+
+        <h3>Nomor dalam Java Script</h3>
+        <p>Bilangan dapat ditulis dengan atau tanpa desimal:</p>
+        <p id="demo4"></p>
+
+        <h3>Booleans dalam Java Script</h3>
+        <p id="demo5"></p>
+
+    <script>
+
+        // Numbers:
+            // let length = 16;
+            // let weight = 7.5;
+
+            // // Strings:
+            // let color = "Yellow";
+            // let lastName = "Johnson";
+
+            // // Booleans
+            // let x = true;
+            // let y = false;
+
+            // // Object:
+            // const person = {firstName:"John", lastName:"Doe"};
+
+            // // Array object:
+            // const cars = ["Saab", "Volvo", "BMW"];
+
+            // // Date object:
+            // const date = new Date("2022-03-25");
+
+        let x = 16 + "Volvo";
+        document.getElementById("demo").innerHTML = x;
+        let y;         // Now y is undefined
+        y = 5;         // Now y is a Number
+        y = "John";    // Now y is a String
+
+        document.getElementById("demo2").innerHTML = y;
+    
+        let answer1 = "It's alright";
+        let answer2 = "He is called 'Johnny'";
+        let answer3 = 'He is called "Johnny"';
+
+        document.getElementById("demo3").innerHTML =
+        answer1 + "<br>" + 
+        answer2 + "<br>" + 
+        answer3;
+
+        let x1 = 34.00;
+        let x2 = 34;
+        let x3 = 3.14;
+
+        document.getElementById("demo4").innerHTML =
+        x1 + "<br>" + x2 + "<br>" + x3;
+
+        let a = 5;
+        let b = 5;
+        let c = 6;
+
+        document.getElementById("demo5").innerHTML =
+        (a == b) + "<br>" + (a == c);
+    </script>
+
+    </body>
+</html>
+
+

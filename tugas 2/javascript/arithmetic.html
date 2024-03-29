@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>JavaScript Arithmetic</h2>
+        <p>A typical arithmetic operation takes two numbers and produces a new number.</p>
+
+        <p id="tambah"></p>
+        <p id="kurang"></p>
+        <p id="kali"></p>
+        <p id="bagi"></p>
+        <p id="mod"></p>
+        <p id="incr"></p>
+        <p id="decr"></p>
+        <p id="rais"></p>
+
+        <script>
+        let a = 100 + 50;
+        document.getElementById("tambah").innerHTML = a;
+
+        let b = 100;
+        let c = 50;
+        let d = b - c;
+        document.getElementById("kurang").innerHTML = d;
+
+        let e = 3;
+        let f = (100 + 50) * e;
+        document.getElementById("kali").innerHTML = f;
+
+        let x = 100 / 50;
+        document.getElementById("bagi").innerHTML = x;
+
+        let m = 5;
+        let n = 2;
+        let p = m % n;
+        document.getElementById("mod").innerHTML = p;
+
+        let o = 5;
+        o++;
+        let r = o;
+        document.getElementById("incr").innerHTML = o;
+
+        let oA = 5;
+        oA--;
+        let rA = oA;
+        document.getElementById("decr").innerHTML = oA;
+
+        let k = 5;
+        document.getElementById("rais").innerHTML = k ** 2;
+        </script>
+
+    </body>
+</html>
