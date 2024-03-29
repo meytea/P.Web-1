@@ -11,15 +11,15 @@
   
   Atribut HTML
   - Tag <a> mendefinisikan hyperlink. Atribut hrefmenentukan URL halaman yang dituju.
-    <a href="https://www.w3schools.com">Visit W3Schools</a>
+    // <a href="https://www.w3schools.com">Visit W3Schools</a>
   - Tag <img>digunakan untuk menyematkan gambar di halaman HTML. Atribut srcmenentukan jalur ke gambar yang akan ditampilkan.
-    <img src="img_girl.jpg">
+    // <img src="img_girl.jpg">
   - Tag <img>juga harus berisi atribut widthand height, yang menentukan lebar dan tinggi gambar:
-    <img src="img_girl.jpg" width="500" height="600">
+    // <img src="img_girl.jpg" width="500" height="600">
   - Atribut yang diperlukan alt untuk <img> tag menentukan teks alternatif untuk suatu gambar, jika gambar karena alasan tertentu tidak dapat ditampilkan. Hal ini dapat disebabkan oleh koneksi yang lambat, atau kesalahan pada srcatribut, atau jika pengguna menggunakan pembaca layar.
-    <img src="img_girl.jpg" alt="Girl with a jacket">
+    // <img src="img_girl.jpg" alt="Girl with a jacket">
   - Atribut style digunakan untuk menambahkan gaya ke suatu elemen, seperti warna, font, ukuran, dan lainnya.
-  <p style="color:red;">This is a red paragraph.</p>
+    // <p style="color:red;">This is a red paragraph.</p>
 
 - **CSS (Cascading Style Sheets)** : CSS adalah bahasa yang digunakan untuk menata gaya dokumen HTML.
   Syntax contoh : h1 {color:blue; font-size:12px;}
@@ -33,13 +33,13 @@
 
 - **Java Script** adalah bahasa pemrograman paling populer di dunia, Java Script digunakan untuk membuat halaman web inetraktif dan dinamis.
 Properti dalam JS
-- innerHtml = mengakses tag html
-- innerText = mengubah text dalam tag
-- textContent = mengubah text dalam tag html
-    document.getElementById //untuk id
-    document.getElementsByTagName; //untuk tag
-    document.getElementsByClassName; //untuk kelas
-    document.querySelector('#title'); //untuk id
-    document.querySelector('title'); //untuk kelas
-    document.querySelector('div'); //untuk id
-    console.log("Hello World");
+  //innerHtml = mengakses tag html
+  //innerText = mengubah text dalam tag
+  //textContent = mengubah text dalam tag html
+  //document.getElementById //untuk id
+  //document.getElementsByTagName; //untuk tag
+  //document.getElementsByClassName; //untuk kelas
+  //document.querySelector('#title'); //untuk id
+  //document.querySelector('title'); //untuk kelas
+  //document.querySelector('div'); //untuk id
+  //console.log("Hello World");
