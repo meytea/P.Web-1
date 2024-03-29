@@ -33,13 +33,13 @@
 
 - **Java Script** adalah bahasa pemrograman paling populer di dunia, Java Script digunakan untuk membuat halaman web inetraktif dan dinamis.
 Properti dalam JS
-  //innerHtml = mengakses tag html
-  //innerText = mengubah text dalam tag
+  a. //innerHtml = mengakses tag html
+  b. //innerText = mengubah text dalam tag
   //textContent = mengubah text dalam tag html
-  //document.getElementById //untuk id
-  //document.getElementsByTagName; //untuk tag
-  //document.getElementsByClassName; //untuk kelas
-  //document.querySelector('#title'); //untuk id
-  //document.querySelector('title'); //untuk kelas
-  //document.querySelector('div'); //untuk id
-  //console.log("Hello World");
+  //document.getElementById = untuk id
+  //document.getElementsByTagName; = untuk tag
+  //document.getElementsByClassName; = untuk kelas
+  //document.querySelector('#title'); = untuk id
+  //document.querySelector('title'); = untuk kelas
+  //document.querySelector('div'); = untuk id
+  //console.log("Hello World"); = menampilkan text
