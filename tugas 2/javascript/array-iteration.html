@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>JavaScript Arrays</h1>
+        
+        <h3>Array Iteration</h3>
+        <p>Panggil suatu fungsi satu kali untuk setiap elemen array:</p>
+        <p id="iteration"></p>
+
+    <script>        
+        //ARRAY ITERATION
+        const numbers = [45, 4, 9, 16, 25];
+
+        let txt = "";
+        numbers.forEach(myFunction);
+        document.getElementById("iteration").innerHTML = txt;
+
+        function myFunction(value, index, array) {
+        txt += value + "<br>"; 
+        }
+    </script>
+
+    </body>
+</html>
+

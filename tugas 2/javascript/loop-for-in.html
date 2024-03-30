@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>JavaScript For Loop In</h1>
+        <p id="demo2"></p>
+    <script>
+        //JavaScript For Loop In
+        const person = {fname:"John", lname:"Doe", age:25}; 
+
+        let txt = "";
+        for (let x in person) 
+        {
+        txt += person[x] + " ";
+        }
+        document.getElementById("demo2").innerHTML = txt;
+</script>
+    </body>
+</html>
